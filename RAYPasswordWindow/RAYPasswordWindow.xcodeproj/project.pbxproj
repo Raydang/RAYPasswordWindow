@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71E2ED981B16F69100AAF1F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E2ED971B16F69100AAF1F7 /* main.m */; };
+		71E2ED9B1B16F69100AAF1F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E2ED9A1B16F69100AAF1F7 /* AppDelegate.m */; };
+		71E2ED9E1B16F69100AAF1F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E2ED9D1B16F69100AAF1F7 /* ViewController.m */; };
+		71E2EDA11B16F69100AAF1F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E2ED9F1B16F69100AAF1F7 /* Main.storyboard */; };
+		71E2EDA31B16F69100AAF1F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E2EDA21B16F69100AAF1F7 /* Images.xcassets */; };
+		71E2EDA61B16F69100AAF1F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71E2EDA41B16F69100AAF1F7 /* LaunchScreen.xib */; };
+		71E2EDB21B16F69100AAF1F7 /* RAYPasswordWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E2EDB11B16F69100AAF1F7 /* RAYPasswordWindowTests.m */; };
+		71E2EDC01B16FA9F00AAF1F7 /* RAYRedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E2EDBF1B16FA9F00AAF1F7 /* RAYRedViewController.m */; };
+		71E2EDC31B16FAB500AAF1F7 /* RAYGreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E2EDC21B16FAB500AAF1F7 /* RAYGreenViewController.m */; };
+		71E2EDC61B16FAC600AAF1F7 /* RAYBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E2EDC51B16FAC600AAF1F7 /* RAYBlueViewController.m */; };
+		71E2EDCA1B16FD7C00AAF1F7 /* RAYPasswordWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E2EDC91B16FD7C00AAF1F7 /* RAYPasswordWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71E2EDAC1B16F69100AAF1F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71E2ED8A1B16F69100AAF1F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71E2ED911B16F69100AAF1F7;
+			remoteInfo = RAYPasswordWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71E2ED921B16F69100AAF1F7 /* RAYPasswordWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAYPasswordWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E2ED961B16F69100AAF1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E2ED971B16F69100AAF1F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71E2ED991B16F69100AAF1F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71E2ED9A1B16F69100AAF1F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71E2ED9C1B16F69100AAF1F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71E2ED9D1B16F69100AAF1F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71E2EDA01B16F69100AAF1F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71E2EDA21B16F69100AAF1F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		71E2EDA51B16F69100AAF1F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		71E2EDAB1B16F69100AAF1F7 /* RAYPasswordWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAYPasswordWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E2EDB01B16F69100AAF1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E2EDB11B16F69100AAF1F7 /* RAYPasswordWindowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAYPasswordWindowTests.m; sourceTree = "<group>"; };
+		71E2EDBE1B16FA9F00AAF1F7 /* RAYRedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAYRedViewController.h; sourceTree = "<group>"; };
+		71E2EDBF1B16FA9F00AAF1F7 /* RAYRedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAYRedViewController.m; sourceTree = "<group>"; };
+		71E2EDC11B16FAB500AAF1F7 /* RAYGreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAYGreenViewController.h; sourceTree = "<group>"; };
+		71E2EDC21B16FAB500AAF1F7 /* RAYGreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAYGreenViewController.m; sourceTree = "<group>"; };
+		71E2EDC41B16FAC600AAF1F7 /* RAYBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAYBlueViewController.h; sourceTree = "<group>"; };
+		71E2EDC51B16FAC600AAF1F7 /* RAYBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAYBlueViewController.m; sourceTree = "<group>"; };
+		71E2EDC81B16FD7C00AAF1F7 /* RAYPasswordWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAYPasswordWindow.h; sourceTree = "<group>"; };
+		71E2EDC91B16FD7C00AAF1F7 /* RAYPasswordWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAYPasswordWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71E2ED8F1B16F69100AAF1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E2EDA81B16F69100AAF1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71E2ED891B16F69100AAF1F7 = {
+			isa = PBXGroup;
+			children = (
+				71E2ED941B16F69100AAF1F7 /* RAYPasswordWindow */,
+				71E2EDAE1B16F69100AAF1F7 /* RAYPasswordWindowTests */,
+				71E2ED931B16F69100AAF1F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71E2ED931B16F69100AAF1F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71E2ED921B16F69100AAF1F7 /* RAYPasswordWindow.app */,
+				71E2EDAB1B16F69100AAF1F7 /* RAYPasswordWindowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71E2ED941B16F69100AAF1F7 /* RAYPasswordWindow */ = {
+			isa = PBXGroup;
+			children = (
+				71E2EDC81B16FD7C00AAF1F7 /* RAYPasswordWindow.h */,
+				71E2EDC91B16FD7C00AAF1F7 /* RAYPasswordWindow.m */,
+				71E2ED991B16F69100AAF1F7 /* AppDelegate.h */,
+				71E2ED9A1B16F69100AAF1F7 /* AppDelegate.m */,
+				71E2ED9C1B16F69100AAF1F7 /* ViewController.h */,
+				71E2ED9D1B16F69100AAF1F7 /* ViewController.m */,
+				71E2EDBE1B16FA9F00AAF1F7 /* RAYRedViewController.h */,
+				71E2EDBF1B16FA9F00AAF1F7 /* RAYRedViewController.m */,
+				71E2EDC11B16FAB500AAF1F7 /* RAYGreenViewController.h */,
+				71E2EDC21B16FAB500AAF1F7 /* RAYGreenViewController.m */,
+				71E2EDC41B16FAC600AAF1F7 /* RAYBlueViewController.h */,
+				71E2EDC51B16FAC600AAF1F7 /* RAYBlueViewController.m */,
+				71E2ED9F1B16F69100AAF1F7 /* Main.storyboard */,
+				71E2EDA21B16F69100AAF1F7 /* Images.xcassets */,
+				71E2EDA41B16F69100AAF1F7 /* LaunchScreen.xib */,
+				71E2ED951B16F69100AAF1F7 /* Supporting Files */,
+			);
+			path = RAYPasswordWindow;
+			sourceTree = "<group>";
+		};
+		71E2ED951B16F69100AAF1F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71E2ED961B16F69100AAF1F7 /* Info.plist */,
+				71E2ED971B16F69100AAF1F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71E2EDAE1B16F69100AAF1F7 /* RAYPasswordWindowTests */ = {
+			isa = PBXGroup;
+			children = (
+				71E2EDB11B16F69100AAF1F7 /* RAYPasswordWindowTests.m */,
+				71E2EDAF1B16F69100AAF1F7 /* Supporting Files */,
+			);
+			path = RAYPasswordWindowTests;
+			sourceTree = "<group>";
+		};
+		71E2EDAF1B16F69100AAF1F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71E2EDB01B16F69100AAF1F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71E2ED911B16F69100AAF1F7 /* RAYPasswordWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E2EDB51B16F69100AAF1F7 /* Build configuration list for PBXNativeTarget "RAYPasswordWindow" */;
+			buildPhases = (
+				71E2ED8E1B16F69100AAF1F7 /* Sources */,
+				71E2ED8F1B16F69100AAF1F7 /* Frameworks */,
+				71E2ED901B16F69100AAF1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAYPasswordWindow;
+			productName = RAYPasswordWindow;
+			productReference = 71E2ED921B16F69100AAF1F7 /* RAYPasswordWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71E2EDAA1B16F69100AAF1F7 /* RAYPasswordWindowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E2EDB81B16F69100AAF1F7 /* Build configuration list for PBXNativeTarget "RAYPasswordWindowTests" */;
+			buildPhases = (
+				71E2EDA71B16F69100AAF1F7 /* Sources */,
+				71E2EDA81B16F69100AAF1F7 /* Frameworks */,
+				71E2EDA91B16F69100AAF1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71E2EDAD1B16F69100AAF1F7 /* PBXTargetDependency */,
+			);
+			name = RAYPasswordWindowTests;
+			productName = RAYPasswordWindowTests;
+			productReference = 71E2EDAB1B16F69100AAF1F7 /* RAYPasswordWindowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71E2ED8A1B16F69100AAF1F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = richerpay;
+				TargetAttributes = {
+					71E2ED911B16F69100AAF1F7 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					71E2EDAA1B16F69100AAF1F7 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 71E2ED911B16F69100AAF1F7;
+					};
+				};
+			};
+			buildConfigurationList = 71E2ED8D1B16F69100AAF1F7 /* Build configuration list for PBXProject "RAYPasswordWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71E2ED891B16F69100AAF1F7;
+			productRefGroup = 71E2ED931B16F69100AAF1F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71E2ED911B16F69100AAF1F7 /* RAYPasswordWindow */,
+				71E2EDAA1B16F69100AAF1F7 /* RAYPasswordWindowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71E2ED901B16F69100AAF1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E2EDA11B16F69100AAF1F7 /* Main.storyboard in Resources */,
+				71E2EDA61B16F69100AAF1F7 /* LaunchScreen.xib in Resources */,
+				71E2EDA31B16F69100AAF1F7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E2EDA91B16F69100AAF1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71E2ED8E1B16F69100AAF1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E2ED9E1B16F69100AAF1F7 /* ViewController.m in Sources */,
+				71E2ED9B1B16F69100AAF1F7 /* AppDelegate.m in Sources */,
+				71E2EDC31B16FAB500AAF1F7 /* RAYGreenViewController.m in Sources */,
+				71E2ED981B16F69100AAF1F7 /* main.m in Sources */,
+				71E2EDC01B16FA9F00AAF1F7 /* RAYRedViewController.m in Sources */,
+				71E2EDCA1B16FD7C00AAF1F7 /* RAYPasswordWindow.m in Sources */,
+				71E2EDC61B16FAC600AAF1F7 /* RAYBlueViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E2EDA71B16F69100AAF1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E2EDB21B16F69100AAF1F7 /* RAYPasswordWindowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71E2EDAD1B16F69100AAF1F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71E2ED911B16F69100AAF1F7 /* RAYPasswordWindow */;
+			targetProxy = 71E2EDAC1B16F69100AAF1F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71E2ED9F1B16F69100AAF1F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E2EDA01B16F69100AAF1F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71E2EDA41B16F69100AAF1F7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E2EDA51B16F69100AAF1F7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71E2EDB31B16F69100AAF1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71E2EDB41B16F69100AAF1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71E2EDB61B16F69100AAF1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RAYPasswordWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71E2EDB71B16F69100AAF1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RAYPasswordWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		71E2EDB91B16F69100AAF1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RAYPasswordWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAYPasswordWindow.app/RAYPasswordWindow";
+			};
+			name = Debug;
+		};
+		71E2EDBA1B16F69100AAF1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RAYPasswordWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAYPasswordWindow.app/RAYPasswordWindow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71E2ED8D1B16F69100AAF1F7 /* Build configuration list for PBXProject "RAYPasswordWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E2EDB31B16F69100AAF1F7 /* Debug */,
+				71E2EDB41B16F69100AAF1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E2EDB51B16F69100AAF1F7 /* Build configuration list for PBXNativeTarget "RAYPasswordWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E2EDB61B16F69100AAF1F7 /* Debug */,
+				71E2EDB71B16F69100AAF1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71E2EDB81B16F69100AAF1F7 /* Build configuration list for PBXNativeTarget "RAYPasswordWindowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E2EDB91B16F69100AAF1F7 /* Debug */,
+				71E2EDBA1B16F69100AAF1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71E2ED8A1B16F69100AAF1F7 /* Project object */;
+}
